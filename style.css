@@ -1,7 +1,7 @@
 body {
     font-family: 'Roboto', sans-serif;
-    background-color: #0b0f1a; /*black/dark navy */
-    color: #d0e7ff; /* light blue text */
+    background-color: #030f2e; /*black/dark navy */
+    color: #92b0d1; /* light blue text */
     font-size: 16px;
 }
 
@@ -60,12 +60,12 @@ h2 {
     border: none; 
 }
 .btn-outline-info { 
-    border-color: #a855f7; 
-    color: #a855f7;
+    border-color: #55c1f7; 
+    color: #55b4f7;
 }
 .btn-outline-info:hover {
-    background-color: #a855f7; 
-    color: white; 
+    background-color: #3259a0; 
+    color: rgb(107, 113, 164); 
 }
 
 .info-card {
@@ -77,14 +77,14 @@ h2 {
 
     /*neo glow effect*/
     box-shadow: 0 0 10px #4da6ff,
-                0 0 20px #6a5cff;
+                0 0 20px #ff00ee;
     transition: 0.3s ease;
 }
 
 .info-card:hover {
     box-shadow: 0 0 15px #4da6ff,
-                0 0 25px #a855f7,
-                0 0 35px #ff4fd8;
+                0 0 25px #203792,
+                0 0 35px #95094d;
     transform: translateY(-3px);
 }
 .container {
@@ -100,7 +100,7 @@ h2 {
     50% {
         text-shadow: 0 0 10px #4da6ff, 
                      0 0 20px #a855f7,
-                     0 0 30px #ff4fd8;
+                     0 0 30px #95094d;
     }
     100% {
         text-shadow: 0 0 5px #4da6ff,
