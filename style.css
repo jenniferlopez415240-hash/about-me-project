@@ -1,110 +1,133 @@
 body {
-    font-family: 'Roboto', sans-serif;
-    background-color: #030f2e; /*black/dark navy */
-    color: #92b0d1; /* light blue text */
-    font-size: 16px;
+   font-family: 'Roboto', sans-serif;
+   background-color: #030f2e; /*black/dark navy */
+   color: #92b0d1; /* light blue text */
+   font-size: 16px;
 }
+
 
 img {
-    max-width: 180px;
-    height: auto;
-    border-radius: 12px;
-    border: 3px solid #1f2b73; /* dark blue border */
-    display: block;
-    margin: 10px auto;
+   max-width: 180px;
+   height: auto;
+   border-radius: 12px;
+   border: 3px solid #1f2b73; /* dark blue border */
+   display: block;
+   margin: 10px auto;
 }
+
 
 .bio-box {
-    background-color: #111a2e; 
-    padding: 15px;
-    border-radius: 10px;
-    border: 2px solid #1f3b73; 
-    margin: 15px 0 25px 0;
+   background-color: #111a2e;
+   padding: 15px;
+   border-radius: 10px;
+   border: 2px solid #1f3b73;
+   margin: 15px 0 25px 0;
 }
+
 
 h1 {
-    font-family: 'Orbitron', sans-serif;
-    color: #66b3ff; 
-    text-align: center;
-    font-size: 46px;
-    letter-spacing: 3px;
-    margin-bottom: 30px;
+   font-family: 'Orbitron', sans-serif;
+   color: #0c233a;
+   text-align: center;
+   font-size: 46px;
+   letter-spacing: 3px;
+   margin-bottom: 30px;
 
-    animation: neonPulse 2.5s infinite ease-in-out;
+
+   animation: neonPulse 2.5s infinite ease-in-out;
 }
+
 
 h2 {
-    color: #4da6ff; 
-    border-bottom: 2px solid #4da6ff;
-    padding-bottom: 5px;
-    margin-bottom: 30px;
-    margin-top: 35px;
+   color: #65a0ff;
+   border-bottom: 2px solid #f9fbff;
+   padding-bottom: 5px;
+   margin-bottom: 30px;
+   margin-top: 35px;
 }
 
+
 .container {
-    padding-top: 40px;
-    padding-bottom: 40px;
+   padding-top: 40px;
+   padding-bottom: 40px;
 }
+
 
 .list-group {
-    margin-top: 15px;
-    margin-bottom: 25px;
+   margin-top: 15px;
+   margin-bottom: 25px;
 }
 
+
+.list-group-item {
+   background-color: #072039;
+   border: 2px solid #5a7cc0;
+   color : #c2d7ed;
+   border-radius: 8px;
+   margin-bottom: 10px;
+   padding: 15px;
+  
+}
 .btn {
-    margin-right: 10px;
-    margin-bottom: 15px;
+   margin-right: 10px;
+   margin-bottom: 15px;
 }
 .btn-primary {
-    background-color: #4da6ff; 
-    border: none; 
+   background-color: #072039;
+   border: none;
 }
-.btn-outline-info { 
-    border-color: #55c1f7; 
-    color: #55b4f7;
+.btn-outline-info {
+   border-color: #c2d7ed;
+   color: #ffffff;
 }
 .btn-outline-info:hover {
-    background-color: #3259a0; 
-    color: rgb(107, 113, 164); 
+   background-color: #070a0f;
+   color: rgb(107, 113, 164);
 }
+
 
 .info-card {
-    background-color: #0b0f1a; 
-    border: 2px solid #1f3b73; 
-    border-radius: 12px;
-    padding: 20px;
-    margin-bottom: 20px;
+   background-color: #0b0f1a;
+   border: 2px solid #1f3b73;
+   border-radius: 12px;
+   padding: 20px;
+   margin-bottom: 20px;
 
-    /*neo glow effect*/
-    box-shadow: 0 0 10px #4da6ff,
-                0 0 20px #ff00ee;
-    transition: 0.3s ease;
+
+   /*neo glow effect*/
+   box-shadow: 0 0 10px #4da6ff,
+               0 0 20px #ff00ee;
+   transition: 0.3s ease;
 }
+
 
 .info-card:hover {
-    box-shadow: 0 0 15px #4da6ff,
-                0 0 25px #203792,
-                0 0 35px #95094d;
-    transform: translateY(-3px);
-}
-.container {
-    max-width: 1000px;
+   box-shadow: 0 0 15px #4da6ff,
+               0 0 25px #203792,
+               0 0 35px #95094d;
+   transform: translateY(-3px);
 }
 
+
+.container {
+   max-width: 1000px;
+}
+
+
 @keyframes neonPulse {
-    0% {
-        text-shadow: 0 0 5px #4da6ff, 
-                     0 0 10px #4da6ff,
-                     0 0 20px #6a5cff;
-    }
-    50% {
-        text-shadow: 0 0 10px #4da6ff, 
-                     0 0 20px #a855f7,
-                     0 0 30px #95094d;
-    }
-    100% {
-        text-shadow: 0 0 5px #4da6ff,
-                     0 0 10px #4da6ff,
-                     0 0 20px #6a5cff;
-    }
+   0% {
+       text-shadow: 0 0 5px #4da6ff,
+                    0 0 10px #4da6ff,
+                    0 0 20px #6a5cff;
+   }
+   50% {
+       text-shadow: 0 0 10px #4da6ff,
+                    0 0 20px #a855f7,
+                    0 0 30px #95094d;
+   }
+   100% {
+       text-shadow: 0 0 5px #4da6ff,
+                    0 0 10px #4da6ff,
+                    0 0 20px #6a5cff;
+   }
 }
